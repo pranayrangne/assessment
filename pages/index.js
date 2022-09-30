@@ -25,7 +25,8 @@ export default function App() {
     phoneNumber: Yup.string()
       .matches(/^[0-9]\d{8,9}$/, "Incorrect phone Number")
       .required("Required"),
-    dob: Yup.string().required("Required")
+    dob: Yup.string().required("Required"),
+    gender: Yup.string().required('Required')
   });
 
   useEffect(() => {
