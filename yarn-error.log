@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Pranay Rangne\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @mui/material @emotion/react @emotion/styled
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files (x86)\WinMerge;C:\Program Files\MongoDB\Server\6.0\bin;C:\Users\Pranay Rangne\scoop\shims;C:\Users\Pranay Rangne\AppData\Local\Microsoft\WindowsApps;C:\Users\Pranay Rangne\AppData\Roaming\npm;C:\Users\Pranay Rangne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\sfdx\bin;C:\Users\Pranay Rangne\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Pranay Rangne\Desktop\assessment-app\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "latest",
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
